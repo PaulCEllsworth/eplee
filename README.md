@@ -21,8 +21,11 @@ Sweet, Simple and Beautiful ePub reader<br>
 </a>
 </div>
 
+"Eplee is an ePub reader focused on clean distraction-free reading experience with simple and beautiful UI."
 
-Eplee is an ePub reader focused on clean distraction-free reading experience with simple and beautiful UI.
+## NOTE:
+
+** This fork is under active development.  I do not suggest using anything here until this note is removed and the version number being changed to 0.5.0 as I suspect this may become an entirely different github project. **
 
 ## Screenshots
 
@@ -43,21 +46,33 @@ Eplee is an ePub reader focused on clean distraction-free reading experience wit
 - Language translation
 - Continue reading where you left
 
+## Why this fok? (2026)
 
-## Why?
+First, the legacy: Janglee wrote:
+> There are lots of open source epub reader available right now. So, the question "Why there is a need for another epub reader?" is meaningful.
+> The answer is the reading experience. Eplee focused on clean UI that let you read a book without annoying GUI.
 
-There are lots of open source epub reader available right now. So, the question "Why there is a need for another epub reader?" is meaningful. The answer is the reading experience. Eplee focused on clean UI that let you read a book without annoying GUI.
-
-## Installing
-
-Grab the latest release [here](https://github.com/Janglee123/eplee/releases)
+I like many things about this code-base, however the original was archived in December, 2022.  That means we've had three years of awesome VueJS and other improvables. It is almost easier to reconfigure the application as a PWA first, then add Electron later.
 
 ## Development
+
+I have three use cases which I plan to complete with this fork:
+
+* The ability to "SQL query" certain kinds of ebooks to pull out content, and let the user make their own smaller versions such that they can make smaller custom ebooks, such as collected short stories, sheet music, etc.
+* The ability to use certain kinds of translator tech to allow a user to:
+** read, 
+** suggest, 
+** possibly edit, 
+** approve edits and translations
+* iterate.
+* Finally... I am hoping to develop a multi-functional CSS pattern which will allow users to print out books including printer-type specific options.
+
+## Github Related:
 
 Clone this repository
 
 ```bash
-git clone https://github.com/janglee123/eplee
+git clone https://github.com/PaulCEllsworth/eplee
 ```
 
 change directory to the cloned path
